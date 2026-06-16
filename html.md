@@ -8,12 +8,13 @@
 
 ```html
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Tytuł strony</title>
-	</head>
-	<body>
-	</body>
+<html lang="pl">
+  <head>
+    <title>Tytuł strony</title>
+  </head>
+  <body>
+    ...
+  </body>
 </html>
 ```
 Gdzie:
@@ -25,7 +26,7 @@ Gdzie:
 Elementy w HTML to paragrafy, nagłówki, obrazy oraz inne bazowe bloki z HTML.
 
 ```html
-  <button class="box">Send message</button>
+<button class="box">Send message</button>
 ```
 Gdzie:
 - `<button class="box">Send message</button>` - element,
@@ -79,18 +80,18 @@ Gdzie:
   <tbody>
     <tr>
       <td>Wiersz 1, kolumna 1</td>
-			<td>Wiersz 1, kolumna 2</td>
-			<td>Wiersz 1, kolumna 3</td>
+	  <td>Wiersz 1, kolumna 2</td>
+	  <td>Wiersz 1, kolumna 3</td>
     </tr>
-		<tr>
+	<tr>
       <td>Wiersz 2, kolumna 1</td>
-			<td>Wiersz 2, kolumna 2</td>
-			<td>Wiersz 2, kolumna 3</td>
+      <td>Wiersz 2, kolumna 2</td>
+	  <td>Wiersz 2, kolumna 3</td>
     </tr>
     <tr>
       <td>Wiersz 3, kolumna 1</td>
-			<td>Wiersz 3, kolumna 2</td>
-			<td>Wiersz 3, kolumna 3</td>
+	  <td>Wiersz 3, kolumna 2</td>
+	  <td>Wiersz 3, kolumna 3</td>
     </tr>
   </tbody>
 
@@ -115,11 +116,9 @@ Gdzie:
 
 ```html
 <div style="overflow-x:auto;">
-
   <table>
     <!-- zawartość tabeli -->
   </table>
-
 </div>
 ```
 
@@ -127,17 +126,14 @@ Gdzie:
 
 ```html
 <form action="" method="">
-
-	<div>
-		<label for="login-email">Email address</label>
-		<input type="email" name="login-email" id="login-email" value="hello@email.com">
-	</div>
-
-	<div>
-		<label for="comments">Comments</label>
-		<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-	</div>
-
+  <div>
+    <label for="login-email">Email address</label>
+    <input type="email" name="login-email" id="login-email" value="hello@email.com">
+  </div>
+  <div>
+    <label for="comments">Comments</label>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+  </div>
 </form>
 ```
 Gdzie:
@@ -185,8 +181,8 @@ Gdzie:
 
 ```html
 <dl>  
-	<dt>Coffee</dt>  
-	<dd>- black hot drink</dd>
+  <dt>Coffee</dt>  
+  <dd>- black hot drink</dd>
 </dl>
 ```
 
@@ -196,7 +192,7 @@ Wyświetla wskaźnik pokazujący postęp realizacji zadania, zazwyczaj wyświetl
 
 ```html
 <label for="progress-bar">Uploading Document</label>
-<progress id="progress-bar" value="70" max="100">70 %</progress>
+<progress id="progress-bar" value="70" max="100">70%</progress>
 ```
 
 ## Semantyczne znaczniki HTML5
