@@ -207,7 +207,7 @@ Wyświetla wskaźnik pokazujący postęp realizacji zadania, zazwyczaj wyświetl
 ## Metatagi
 
 ```html
-<meta name="description" content="Opis strony" />>
+<meta name="description" content="Opis strony" />
 <meta name="keywords" content="html, kurs, nauka" />
 <meta name="author" content="Twoje Imie" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
