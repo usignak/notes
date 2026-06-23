@@ -8,6 +8,27 @@
 - [Clippy](https://bennettfeely.com/clippy/)
 - [CSS Gradient](https://cssgradient.io/)
 
+## Rozmiar fontu
+```css
+:root {
+  font-size: 100%;
+}
+```
+#### Wzór na przeliczanie px na rem 
+`rem = px / 16`
+#### Najczęściej używane wartości (px -> rem)
+
+| px  | rem |
+| ------------- | ------------- |
+| 12 | 0.75rem |
+| 14 | 0.875rem |
+| 16 | 1rem |
+| 18 | 1.125rem |
+| 20 | 1.25rem |
+| 24 | 1.5rem |
+| 32 | 2rem |
+| 48 | 3rem |
+
 ## Przedziały dla breakpoints
 - Laptop Range: 1800px - 1200px,
 - Tablet Range: 1200px - 600px,
@@ -37,17 +58,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.min.css" />
 </head>
-```
-
-## Rozmiar fontu
-```css
-html {  
-  font-size: 62.5%;
-}
-
-.wrapper {
-  font-size: 1.6rem; // 16px
-}
 ```
 
 ## Ukrycie focusa
