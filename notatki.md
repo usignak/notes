@@ -29,6 +29,17 @@
 | 32 | 2rem |
 | 48 | 3rem |
 
+## aspect-ratio
+`aspect-ratio` mówi przeglądarce, jaka ma być proporcja szerokości do wysokości elementu.
+```css
+aspect-ratio: szerokość / wysokość;
+
+aspect-ratio: 1 / 1;   /* kwadrat */
+aspect-ratio: 16 / 9;  /* panorama */
+aspect-ratio: 4 / 3;   /* klasyczne zdjęcie */
+aspect-ratio: 3 / 4;   /* pionowy prostokąt */
+```
+
 ## Przedziały dla breakpoints
 - Laptop Range: 1800px - 1200px,
 - Tablet Range: 1200px - 600px,
